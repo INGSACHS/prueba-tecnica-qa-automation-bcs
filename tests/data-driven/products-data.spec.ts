@@ -2,7 +2,7 @@ import { test, expect } from '../../fixtures/test-fixtures';
 import { loadTestData } from '../../utils/dataLoader';
 import { ProductsData } from '../../types/testData';
 
-const data = loadTestData<ProductsData>('products.data.json');
+const data = loadTestData<ProductsData>('products.json');
 
 test.describe('Products API', () => {
 
