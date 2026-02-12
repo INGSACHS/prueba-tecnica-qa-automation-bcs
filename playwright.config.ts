@@ -9,7 +9,8 @@ export default defineConfig({
     baseURL: ENV.baseUrl,
     headless: true,
     screenshot: 'only-on-failure',
-    trace: 'on-first-retry'
+    trace: 'on-first-retry',
+    video: 'on-first-retry'
   },
   projects: [
     { name: 'UI' },
