@@ -2,16 +2,25 @@
   "name": "credito-digital-playwright",
   "version": "1.0.0",
   "description": "Automatización UI y API - Crédito Digital",
+  "keywords": ["prueba tecnica", "bcs", "credito digital"]
+  "homepage": "https://github.com/INGSACHS/prueba-tecnica-qa-automation-bcs#readme",
+  "bugs": {
+    "url": "https://github.com/INGSACHS/prueba-tecnica-qa-automation-bcs/issues"
+  }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/INGSACHS/prueba-tecnica-qa-automation-bcs.git"
+  }
   "license": "ISC",
   "author": "Sergio Chiquillo",
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-"test": "playwright test",
-"test:ui": "playwright test --project=UI",
-"test:api": "playwright test --project=API",
-"report": "playwright show-report"
-},
+    "test": "playwright test",
+    "test:ui": "playwright test --project=UI",
+    "test:api": "playwright test --project=API",
+    "report": "playwright show-report"
+  },
   "devDependencies": {
     "@playwright/test": "^1.58.2",
     "@types/node": "^25.2.3"
