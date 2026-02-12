@@ -2,7 +2,7 @@ import { test, expect } from '../../fixtures/test-fixtures';
 import { loadTestData } from '../../utils/dataLoader';
 import { SimuladorData } from '../../types/testData';
 
-const data = loadTestData<SimuladorData>('simulador.data.json');
+const data = loadTestData<SimuladorData>('simulador.json');
 
 test.describe('Simulador API', () => {
 
