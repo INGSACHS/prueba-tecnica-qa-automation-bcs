@@ -1,0 +1,26 @@
+[
+    {
+        "testId": "TC05",
+        "monto": 5000,
+        "plazo": 12,
+        "expectedStatus": 200
+    },
+    {
+        "testId": "TC06",
+        "monto": 0,
+        "plazo": 12,
+        "expectedStatus": 400
+    },
+    {
+        "testId": "TC07",
+        "monto": 10000,
+        "plazo": 24,
+        "expectedStatus": 200
+    },
+    {
+        "testId": "TC08",
+        "monto": 9999999,
+        "plazo": 1,
+        "expectedStatus": 400
+    }
+]

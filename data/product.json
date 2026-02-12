@@ -1,0 +1,11 @@
+[
+    {
+        "testId": "TC09",
+        "token": "validToken",
+        "expectedStatus": 200
+    },
+    {
+        "testId": "TC10",
+        "expectedStatus": 401
+    }
+]
