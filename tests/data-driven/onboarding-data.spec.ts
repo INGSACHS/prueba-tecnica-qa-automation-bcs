@@ -3,7 +3,7 @@ import { loadTestData } from '../../utils/dataLoader';
 import { LoginData } from '../../types/testData';
 import { mockCaptchaError } from '../../mocks/network';
 
-const data = loadTestData<LoginData>('login.data.json');
+const data = loadTestData<LoginData>('login.json');
 
 test.describe('Onboarding', () => {
 
