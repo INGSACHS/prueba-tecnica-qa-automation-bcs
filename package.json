@@ -7,12 +7,11 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "npx playwright test",
-    "test:P0": "npx playwright test -g @P0",
-    "test:P1": "npx playwright test -g @P1",
-    "test:P2": "npx playwright test -g @P2",
-    "report": "npx playwright show-report"
-  },
+"test": "playwright test",
+"test:ui": "playwright test --project=UI",
+"test:api": "playwright test --project=API",
+"report": "playwright show-report"
+},
   "devDependencies": {
     "@playwright/test": "^1.58.2",
     "@types/node": "^25.2.3"
