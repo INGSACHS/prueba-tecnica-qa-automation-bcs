@@ -1,0 +1,26 @@
+[
+    {
+        "testId": "TC01",
+        "username": "valid",
+        "password": "1234",
+        "expected": "success"
+    },
+    {
+        "testId": "TC02",
+        "username": "valid",
+        "password": "wrong",
+        "expected": "error"
+    },
+    {
+        "testId": "TC03",
+        "username": "",
+        "password": "",
+        "expected": "required"
+    },
+    {
+        "testId": "TC04",
+        "username": "captcha",
+        "password": "1234",
+        "expected": "captcha"
+    }
+]
